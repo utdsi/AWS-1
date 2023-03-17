@@ -5,7 +5,7 @@ const app =express()
 app.use(express.json())
 
 app.get("/",(req,res)=>{
-    res.send("Welcome Utkarsh")
+    res.send("Welcome Utkarsh 2")
 })
 
 app.listen(8000,()=>{
